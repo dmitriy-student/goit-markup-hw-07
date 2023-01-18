@@ -1,0 +1,70 @@
+.main-button {
+    background-color: var(--accent-blue);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 0;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-btn-blue);
+     }
+}
+
+.modal-submit-button {
+    background-color: var(--accent-blue);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 0px;
+    padding: 10px 52px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 0;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      background-color: var(--accent-btn-blue);
+     }
+}
+
+
+
+.close-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--black);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-blue);
+    }
+}
+

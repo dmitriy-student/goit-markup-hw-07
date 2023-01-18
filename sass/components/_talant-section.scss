@@ -1,0 +1,50 @@
+.talant-section {
+    padding: 94px 0;
+}
+
+.talant-list {
+    display: flex;
+
+    &__subtitle {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &__item {
+        width: 100%;
+        max-width: 270px;
+
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+
+    &__svg {
+        height: 120px;
+        width: 100%;
+        background-color: var(--bg-color-secondary);
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:nth-child(1) {
+            background-image: url(../images/antenna\ 1.svg);
+        }
+    
+        &:nth-child(2) {
+            background-image: url(../images/clock\ 1.svg);
+        }
+    
+        &:nth-child(3) {
+            background-image: url(../images/diagram\ 1.svg);
+        }
+    
+        &:nth-child(4) {
+            background-image: url(../images/astronaut\ 1.svg);
+        }
+    }
+}

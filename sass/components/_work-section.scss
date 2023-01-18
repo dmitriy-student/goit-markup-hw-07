@@ -1,0 +1,25 @@
+.work-section {
+    padding-bottom: 94px;
+}
+
+.work-list {
+    display: flex;
+
+    &__item:not(:last-child) {
+        margin-right: 30px;
+    }
+    &__text {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        color: var(--white);
+        position: relative;
+        transform: translateY(-71px);
+        padding: 27px 0;
+        margin: 0;
+        background: rgba(47, 48, 58, 0.8);
+    }
+
+}
+

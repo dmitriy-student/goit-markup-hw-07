@@ -1,0 +1,21 @@
+ @import './utils/variables';
+
+ @import './base/base';
+ @import './base/reset';
+
+ @import './layout/container';
+ @import './layout/modal-container';
+
+ @import './components/backdrop';
+ @import './components/buttons';
+ @import './components/client-section';
+ @import './components/hero-section';
+ @import './components/logo';
+ @import './components/modal';
+ @import './components/page-footer';
+ @import './components/page-header';
+ @import './components/portfolio-section';
+ @import './components/talant-section';
+ @import './components/team-section';
+ @import './components/visually-hidden';
+ @import './components/work-section';
