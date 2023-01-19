@@ -392,6 +392,10 @@ p {
   background-color: var(--accent-blue);
   border-color: var(--accent-blue);
 }
+.modal-form__modal-link {
+  color: var(--accent-blue);
+  text-decoration: underline;
+}
 
 .footer {
   background-color: var(--bg-color-main);
@@ -1015,15 +1019,18 @@ p {
 .work-list__item:not(:last-child) {
   margin-right: 30px;
 }
+.work-list__item {
+  position: relative;
+}
 .work-list__text {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   text-align: center;
   color: var(--white);
-  position: relative;
-  -webkit-transform: translateY(-71px);
-          transform: translateY(-71px);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding: 27px 0;
   margin: 0;
   background: rgba(47, 48, 58, 0.8);

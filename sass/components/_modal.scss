@@ -110,5 +110,10 @@
         background-color: var(--accent-blue);
         border-color: var(--accent-blue);
     }
+
+    &__modal-link{
+        color: var(--accent-blue);
+        text-decoration: underline;
+    }
 }
 
