@@ -369,8 +369,6 @@ p {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  /* width: 16px;
-  height: 15px; */
 }
 .modal-form__icon-checkbox {
   position: absolute;
